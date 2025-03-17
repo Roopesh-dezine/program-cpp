@@ -1,8 +1,5 @@
 ## Program 1
-Write a program to compute the sum of the first n terms of the following series:
-□ = 1 - 1/2^2 + 1/3^3 .......
-The number of terms n is to be taken from the user through the command line. If the
-command line argument is not found then prompt the user to enter the value of n
+
 ```
 #include <iostream>
 #include <cmath>
@@ -37,7 +34,7 @@ int main() {
 ![n1](https://github.com/user-attachments/assets/3548ec55-18e5-45f4-b2f3-ba6f9b8d2d3c)
 
 ## Program 2
-Write a program to remove the duplicates from an array
+
 ```
 #include <iostream>
 
@@ -93,8 +90,7 @@ int main() {
 ![n2](https://github.com/user-attachments/assets/331c41d4-27a5-413e-9545-7b380b7ac585)
 
 ## Program 3 
-Write a program that prints a table indicating the number of occurrences of each
-alphabet in the text entered as command line arguments
+
 ```
 #include <iostream>
 #include <map>
@@ -126,15 +122,7 @@ int main(int argc, char* argv[]) {
 ![n3](https://github.com/user-attachments/assets/01cf7e25-0704-4449-990a-30ae90d5c3d1)
 
 ## Program 4
-Write a menu driven program to perform string manipulation (without using inbuilt
-string functions):
-a. Show address of each character in string
-b. Concatenate two strings.
-c. Compare two strings
-d. Calculate length of the string (use pointers)
-e. Convert all lowercase characters to uppercase
-f. Reverse the string
-g. Insert a string in another string at a user specified position
+
 ```
 #include <iostream>
 
@@ -278,7 +266,7 @@ int main() {
 ![n4](https://github.com/user-attachments/assets/f93e596a-54a5-46d9-abb4-bdf595392e66)
 
 ## Program 5
-Write a program to merge two ordered arrays to get a single ordered array.
+
 ```
 #include <iostream>
 
@@ -349,8 +337,7 @@ int main() {
 ![n5](https://github.com/user-attachments/assets/4ce66c4d-dcf1-4265-93ac-45917e0cf9ae)
 
 ## Program 6
-Write a program to search a given element in a set of N numbers using Binary search
-(i) with recursion (ii) without recursion.
+
 ```
 #include <iostream>
 
@@ -420,8 +407,7 @@ int main() {
 ![n6](https://github.com/user-attachments/assets/3126c1a6-d4b8-4548-a3e2-325f237cc4ba)
 
 ## Program 7
-Write a program to calculate GCD of two numbers (i) with recursion (ii) without
-recursion
+
 ```
 #include <iostream>
 
@@ -456,12 +442,7 @@ int main() {
 ![n7](https://github.com/user-attachments/assets/bff8553b-abf7-4f13-b16d-c01c457bdf6a)
 
 ## Program 8
-Create a Matrix class. Write a menu-driven program to perform following Matrix
-operations (exceptions should be thrown by the functions if matrices passed to them
-are incompatible and handled by the main() function):
-a. Sum
-b. Product
-c. Transpose
+
 ```
 #include <iostream>
 
@@ -566,11 +547,7 @@ int main() {
 ![n8](https://github.com/user-attachments/assets/62bd751e-0315-4f2e-97a7-cd56ddaba401)
 
 ## Program 9
-Define a class Person having name as a data member. Inherit two classes Student and
-Employee from Person. Student has additional attributes as course, marks and year
-and Employee has department and salary. Write display() method in all the three
-classes to display the corresponding attributes. Provide the necessary methods to show
-runtime polymorphism
+
 ```
 #include <iostream>
 #include <string>
@@ -668,11 +645,7 @@ int main() {
 ![n9](https://github.com/user-attachments/assets/9ef1bad3-6e7a-4bdf-82e9-53b5de1a2fc0)
 
 ## Program 10
-Create a Triangle class. Add exception handling statements to ensure the following
-conditions: all sides are greater than 0 and sum of any two sides are greater than the
-third side. The class should also have overloaded functions for calculating the area
-of a right angled triangle as well as using Heron's formula to calculate the area of any
-type of triangle
+
 ```
 #include <iostream>
 #include <cmath>
@@ -744,9 +717,7 @@ int main() {
 ![n10](https://github.com/user-attachments/assets/3bedad47-0816-477f-9d7e-17ab613b4906)
 
 ## Program 11
-Create a class Student containing fields for Roll No., Name, Class, Year and Total
-Marks. Write a program to store 5 objects of Student class in a file. Retrieve these
-records from the file and display them
+
 ```
 #include <iostream>
 #include <fstream>
@@ -834,7 +805,7 @@ int main() {
 ![n11](https://github.com/user-attachments/assets/05a556ca-7f52-45e2-a183-50dd8d8507c1)
 
 ## Program 12
-Copy the contents of one text file to another file, after removing all whitespaces
+
 ```
 #include <iostream>
 #include <fstream>
